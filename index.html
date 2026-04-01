@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        body {width: 100vw;
+              display: flex;
+              align-items: center;
+              justify-content: center;}
+        
+        .pozadí {width: 1440px;
+                 height: 100vh;
+                 background-color: hsl(212, 45%, 89%);
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;}
+
+        .karta {background-color: white;
+                height: 50%;
+                width: 22%;
+                border-radius: 5%;
+                display: flex;
+                flex-direction: column;}
+
+        .qr {background-image: url(image-qr-code.png);
+             border-radius: 5%;
+             margin-top: 5%;
+             margin-left: 5%;
+             background-repeat: no-repeat;
+             background-size: cover;
+             width: 90%;
+             height: 60%;}
+
+        .text {display: flex;
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               padding-left: 10%;
+               padding-right: 10%;}
+        
+        h2 {color: hsl(218, 44%, 22%);
+            font-size: 20px;
+            line-height: 1.2;
+            display: flex;
+            margin-bottom: 0%;
+            font-weight: 680;
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        
+        p {color: hsl(218, 44%, 22%);
+           font-size: 15px;
+           font-weight: 400;
+           font-family: 'Outfit', sans-serif;
+           text-align: center;
+           opacity: 0.5;}
+    </style>
+</head>
+
+
+<body>
+<div class="pozadí">
+    <div class="karta">
+        <div class="qr">
+        </div>
+        <div class="text">
+            <h2>Improve yor front-end
+                skills by building projects
+            </h2>
+            <p>Scan the QR code to visit Frontend
+                Mentor and take your coding skills to
+                the next level
+            </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
